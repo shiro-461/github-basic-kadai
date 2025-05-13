@@ -51,17 +51,6 @@ $ git commit -m '日本語の挨拶を追加'
  1 file changed, 2 insertions(+)    
 
 hiyoh@derutaso MINGW64 ~/workspace/git_challenge (main)
-$ git log
-commit 8efdbada16771cdb3adb4a94c41fe534ad5202b0 (HEAD -> main)
-Author: shiro-461 <itouhi5656@gmail.com>
-Date:   Tue May 13 20:47:06 2025 +0900
-
-    日本語の挨拶を追加
-
-commit 33a9d4722c7bcf45958dabf967730bef6b9802fd
-Author: shiro-461 <itouhi5656@gmail.com>
-Date:   Tue May 13 20:45:46 2025 +0900
-
-    英語の挨拶を追加
-
-hiyoh@derutaso MINGW64 ~/workspace/git_challenge (main)
+$ git log --oneline
+8efdbad (HEAD -> main) 日本語の挨拶を追加
+33a9d47 英語の挨拶を追加
